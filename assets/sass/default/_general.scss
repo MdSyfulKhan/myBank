@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------
+3. General Style
+----------------------------------------------------------------*/
+.st-mp0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.st-flex{
+  display: flex;
+}
+
+.st-block{
+  display: block;
+}
+
+.st-align-center{
+  display: flex;
+  align-items: center;
+}
+
+.st-justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: $accent;
+  }
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.st-hidden {
+  display: none;
+}
+
+.st-overflow-hidden {
+  overflow: hidden;
+}
+
+.st-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.st-sticky-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.st-zoom {
+  transition: all 0.4s ease;
+  .st-zoom-in {
+    transform: scale(1.1);
+  }
+}
+
+.st-transparent-bg,
+.st-transparent-bg-hover:hover {
+  background-color: transparent;
+}
+.st-white-color,
+.st-white-color-hover:hover {
+  color: $white;
+}
+.st-white-bg,
+.st-white-bg-hover:hover {
+  background-color: $white;
+}
+.st-black-color,
+.st-black-color-hover:hover {
+  color: $black;
+}
+.st-black-bg,
+.st-black-bg-hover:hover {
+  background-color: $black;
+}
+.st-primary-color,
+.st-primary-color-hover:hover {
+  color: $primary;
+}
+.st-primary-bg,
+.st-primary-bg-hover:hover {
+  background-color: $primary;
+}
+.st-secondary-color,
+.st-secondary-color-hover:hover {
+  color: $secondary;
+}
+.st-secondary-bg,
+.st-secondary-bg-hover:hover {
+  background-color: $secondary;
+}
+.st-accent-color,
+.st-accent-color-hover:hover {
+  color: $accent;
+}
+.st-accent-bg,
+.st-accent-bg-hover:hover {
+  background-color: $accent;
+}
+.st-tertiary-color,
+.st-tertiary-color-hover:hover {
+  color: $tertiary;
+}
+.st-tertiary-bg,
+.st-tertiary-bg-hover:hover {
+  background-color: $tertiary;
+}
+
+
